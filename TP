@@ -1,0 +1,60 @@
+<stdio.h>
+
+<string>
+structure deplacement
+&c char 'deplacement'
+
+structure place
+&c char 'place'
+printf ("Ville");
+&c char 'description'
+printf ("Immeuble");
+printf ("Rue");
+printf ("Route");
+
+structure gestion des lieux
+&c char 'gestion des lieux'
+printf ("Année 3145");
+printf ("Vous etes en France");
+printf "Dans le departement 14485";
+printf ("Choisir la ville ou vous voulez vivre");
+<select> "Andry";
+<select> "Vaktor";
+<select> "Emmi";
+<select> "Mora";
+
+&c char 'contraintes deplacement'
+
+structure avant-poste
+&c char 'avant-poste'
+&c char 'etablir un avant-poste'
+printf ("Choisir le lieu de la construction du premier avant-poste");
+<select> 'Au Nord';
+<select> 'Entre Nord-Est';
+<select> 'A l'Est';
+<select> 'Entre Est-Sud';
+<select> 'Au Sud';
+<select> 'Entre Sud-Ouest';
+<select> 'A l'Ouest';
+<select> 'Entre Ouest-Nord';
+printf ("Mettre le nombre de garde dans chaque avant-poste");
+<select> "1";
+<select> "2";
+<select> "3";
+printf ("Les avant-postes doivent etre places dans chaque partie de ce grand barage invisible infranchissable faisant dix metres qui protege la ville");
+
+structure stamina
+&c char 'stamina'
+printf ("Jauge d'endurance de 0 a 100");
+
+structure repos
+&c char 'repos'
+printf ("Dormir pendant");
+<select> "1h";
+<select> "2h";
+<select> "3h";
+<select> "4h";
+<select> "5h";
+<select> "6h";
+<select> "7h";
+<select> "8h";
